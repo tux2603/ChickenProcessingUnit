@@ -1,0 +1,168 @@
+OP_RETURN:
+  R0 = dev{0}[6]
+  R0 <>, goto END_SUB
+  HALT:
+    goto HALT
+  END_SUB:
+    R1 = 1
+    R0 = R0 - R1
+    dev{0}[6] = R0
+    R1 = R0 + 10
+    R0 = dev{0}[R1]
+    R1 = R0 >> 16
+    R2 = R0 << 16
+    R2 = R2 >> 16
+    dev{0}[4] = R2    ; Restore program address
+    dev{0}[5] = R1    ; Restore program device
+    done
+
+OP_PUSH:
+  push nl
+  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
+  R0 = R0 + 1
+  dev{0}[4] = R0
+  done
+
+OP_AND:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 & R1
+  done
+
+OP_OR:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 | R1
+  done
+
+OP_NOT:
+  R0 = dev{0}[0]
+  pop
+  push ~R0
+  done
+
+OP_LEFT_SHIFT:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 << R1
+  done
+
+OP_RIGHT_SHIFT:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 >> R1
+  done
+
+OP_ARITHMETIC_RIGHT_SHIFT:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 >>> R1
+  done
+
+OP_NEGATE:
+  R0 = dev{0}[0]
+  pop
+  push -R0
+  done
+    
+OP_ADD:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 + R1
+  done
+
+OP_SUBTRACT:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 - R1
+  done
+
+OP_MULTIPLY:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 * R1
+  done
+
+OP_DIVIDE:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0 / R1
+  done
+
+OP_SWAP:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  push R0
+  push R1
+  done
+
+OP_COMPARE:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  R0 = R0 - R1
+  R1 = nl
+  push R0 <=> R1
+  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
+  R0 = R0 + 1
+  dev{0}[4] = R0
+  done
+
+OP_LOAD:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{nl}[R0]
+  push R1
+  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
+  R0 = R0 + 1
+  dev{0}[4] = R0
+  done
+
+OP_STORE:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  dev{nl}[R0] = R1
+  done
+
+OP_JUMP:
+  R0 = dev{0}[0]
+  pop
+  R1 = dev{0}[0]
+  pop
+  R1
+  <>, goto JUMP
+  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
+  R0 = R0 + 1
+  dev{0}[4] = R0
+  done
+  JUMP:
+    dev{0}[4] = R0 ; If we jumped, it doesn't matter that it was double wide
+    done
+
+OP_GOTO:
+  ; todo
+
+  DevConst
