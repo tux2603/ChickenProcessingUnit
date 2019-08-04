@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+
+# Takes hexadecimal input in x-bit (32 is default) chunks and converts it to a little endian 
+use Getopt::Std;
+
+my %opts = (
+  'b' => 32
+);
+
+getopts('b:', \%opts);
+
+$hexCharsPerWord = int $opts{'b'} / 4 + 0.99;
+
+while(<>) {
+  # If this line is a comment, skip it
+  next if /^\s*#/;
+
+  # Strip any end of line comments
+  s/#.*$//g;
+
+  # Strip all '0x characters from the beginning of a word
+  s/\b0x(?=[0-9A-Fa-f])//g;
+
+  # Strip all non hex characters rom the line
+  s/[^0-9A-Fa-f]//g;
+
+  $line = $_;
+
+  # print "$line\n";
+
+  while(length $line) {
+    $word = substr $line, 0, $hexCharsPerWord;
+    $line = substr $line, $hexCharsPerWord;
+
+    while(length $word) {
+      $byte = substr $word, -2;
+      $word = substr $word, 0, -2;
+
+      print chr hex $byte;
+    }
+  }
+}

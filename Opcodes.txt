@@ -1,168 +1,198 @@
+# OPCODES INSTRUCTIONS FOR THE CPU CONTROL UNIT
+
+OP_READY: # Instruction 0
+  # Compute a zero, and jump to this op code. This will loop forever!
+  goto 0
+
 OP_RETURN:
+  # Load the subroutine stack size
   R0 = dev{0}[6]
+  # If the stack is not zero, then return from the subroutine
   R0 <>, goto END_SUB
-  HALT:
-    goto HALT
+  # Halt and catch fire, basically
+  HALT_AND_CATH_FIRE:
+    0 <=>, goto HALT_AND_CATH_FIRE
   END_SUB:
-    R1 = 1
-    R0 = R0 - R1
+    # Decrement The stack size
+    R0 = R0 - 1
+    # Save the new stack size
     dev{0}[6] = R0
-    R1 = R0 + 10
-    R0 = dev{0}[R1]
-    R1 = R0 >> 16
-    R2 = R0 << 16
-    R2 = R2 >> 16
-    dev{0}[4] = R2    ; Restore program address
-    dev{0}[5] = R1    ; Restore program device
-    done
+    # Calculate the location of the subroutine information in memory
+    R0 = R0 + 16
+    # Fetch the value stored at that location
+    R0 = dev{0}[R0]
+    # The first 16 bits of that value are the device ID. Extract them to R1
+    R1 = R0 & 0xFFFF0000
+    R1 = R1 >> 16
+    # The second sixteen bits is the program counter of the command that called the subroutine
+    R0 = R0 & 0x0000FFFF
+    # Load the old program counter back to memory
+    dev{0}[4] = R0
+    # Load the old program device back to memory
+    dev{0}[5] = R1
+    # This operation is done
+    PC += 1, goto 0
 
 OP_PUSH:
-  push nl
-  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
-  R0 = R0 + 1
-  dev{0}[4] = R0
-  done
+  # Push the NEXT_LINE constant
+  push NEXT_LINE
+  # This was a double wide instruction, so increment the PC twice
+  PC += 2, goto 0
+
+OP_POP:
+  pop R0
+  PC += 1, goto 0
 
 OP_AND:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   push R0 & R1
-  done
+  PC += 1, goto 0
 
 OP_OR:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   push R0 | R1
-  done
+  PC += 1, goto 0
 
 OP_NOT:
-  R0 = dev{0}[0]
-  pop
+  R0 = pop
   push ~R0
-  done
+  PC += 1, goto 0
 
 OP_LEFT_SHIFT:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
-  push R0 << R1
-  done
+  R0 = pop
+  R1 = pop
+  push R0 < < R1 # Don't ask about the space...
+  PC += 1, goto 0
 
 OP_RIGHT_SHIFT:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
-  push R0 >> R1
-  done
+  R0 = pop
+  R1 = pop
+  push R0 > > R1
+  PC += 1, goto 0
 
-OP_ARITHMETIC_RIGHT_SHIFT:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
-  push R0 >>> R1
-  done
+OP_ARITHMETIC_SHIFT:
+  R0 = pop
+  R1 = pop
+  push R0 > > > R1
+  PC += 1, goto 0
 
 OP_NEGATE:
-  R0 = dev{0}[0]
-  pop
+  R0 = pop
   push -R0
-  done
-    
+  PC += 1 goto 0
+
 OP_ADD:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   push R0 + R1
-  done
+  PC += 1, goto 0
 
 OP_SUBTRACT:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   push R0 - R1
-  done
+  PC += 1, goto 0
 
 OP_MULTIPLY:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   push R0 * R1
-  done
+  PC += 1, goto 0
 
 OP_DIVIDE:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   push R0 / R1
-  done
+  PC += 1, goto 0
 
 OP_SWAP:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   push R0
   push R1
-  done
+  PC += 1, goto 0
 
 OP_COMPARE:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
+  R0 = pop
+  R1 = pop
   R0 = R0 - R1
-  R1 = nl
-  push R0 <=> R1
-  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
-  R0 = R0 + 1
-  dev{0}[4] = R0
-  done
+  push R0 <-+-> NEXT_LINE
+  # Double wide instruction
+  PC += 2, goto 0
 
 OP_LOAD:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{nl}[R0]
-  push R1
-  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
-  R0 = R0 + 1
-  dev{0}[4] = R0
-  done
+  R0 = pop
+  RD = pop
+  push dev{RD}[R0]
+  PC += 1, goto 0
 
 OP_STORE:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
-  dev{nl}[R0] = R1
-  done
+  R0 = pop
+  RD = pop
+  R1 = pop
+  dev{RD}[R0] = R1
+  PC += 1, goto 0
 
 OP_JUMP:
-  R0 = dev{0}[0]
-  pop
-  R1 = dev{0}[0]
-  pop
-  R1
-  <>, goto JUMP
-  R0 = dev{0}[4] ; this is a double wide instruction, so increment the program counter
-  R0 = R0 + 1
-  dev{0}[4] = R0
-  done
+  pop R0
+  pop R1 <>, goto JUMP
+  PC += 1, goto 0
   JUMP:
-    dev{0}[4] = R0 ; If we jumped, it doesn't matter that it was double wide
-    done
+    dev{0}[4] = R0
+    # Since we just jumped, we don't have to worry about changing PC
+    goto 0
 
-OP_GOTO:
-  ; todo
+OP_GOSUB:
+  pop R0
+  pop R1
+  pop R2 <>, goto GOTO
+  PC += 1, goto 0
+  GOTO:
+    # Get the current program counter
+    R2 = dev{0}[4]
+    # Get the current program device
+    R3 = dev{0}[5]
+    # Combine them together to get the subroutine return location
+    R3 = R3 << 16
+    R2 = R2 | R3
+    # Get the location to write the subroutine return location to
+    R3 = dev{0}[6]
+    R3 = R3 + 16
+    # Save the subroutine return location
+    dev{0}[R3] = R2
+    # Calculate the new subroutine stack depth
+    R3 = R3 - 15
+    # Save the stack depth
+    dev{0}[6] = R3
+    # Set the program counter and program device
+    dev{0}[4] = R0
+    dev{0}[5] = R1
+    # Don't change the program counter!
+    goto 0
 
-  DevConst
+OP_READ:
+  push dev{0}[2] = dev{0}[2]
+  PC += 1, goto 0
+
+OP_PRINT:
+  pop dev{0}[3]
+  PC += 1, goto 0
+
+OP_PRINT_MEM:
+  pop R0
+  pop RD
+  R0 = dev{RD}[R0]
+  dev{0}[3] = R0
+  PC += 1, goto 0
+
+OP_DRAW:
+  pop R0
+  pop R1
+  pop R2
+  # Calculate the address of the screen to draw to
+  R1 = R1 << 16
+  R0 = R0 | R1
+  dev{4}[R0] = R2
+  PC += 1, goto 0
