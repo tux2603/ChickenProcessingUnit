@@ -141,31 +141,70 @@
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
-
-# OP_READ:
-#   push dev{0}[2] = dev{0}[2]
-#   PC += 1, goto 0
-
-# OP_PRINT:
-#   pop dev{0}[3]
-#   PC += 1, goto 0
-
-# OP_PRINT_MEM:
-#   pop R0
-#   pop RD
-#   R0 = dev{RD}[R0]
-#   dev{0}[3] = R0
-#   PC += 1, goto 0
-
-# OP_DRAW:
-#   pop R0
-#   pop R1
-#   pop R2
-#   # Calculate the address of the screen to draw to
-#   R1 = R1 << 16
-#   R0 = R0 | R1
-#   dev{4}[R0] = R2
-#   PC += 1, goto 0
+0x08800B80 0x00000002 ###### START OP_READ, push dev{0}[2], dev{0}[2] = dev{0}[2]
+0x00000000 0x00000001 # PC += 1, goto 0
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x08800D80 0x00000003 ###### START OP_PRINT, dev{0}[3] = pop
+0x00000000 0x00000001 # PC += 1, goto 0
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x08080C00 0x00000000 ###### START OP_PRINT_MEM, R0 = pop
+0x08000C40 0x00000000 # RD = pop
+0x08080800 0x00000000 # R0 = dev{RD}[R0]
+0x08800280 0x00000003 # dev{0}[3] - R0
+0x00000000 0x00000001 # PC += 1, goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x08080C00 0x00000000 ######## START OP_DRAW, R0 = pop
+0x08090C00 0x00000000 # R1 = pop
+0x080A0C00 0x00000000 # R2 = pop
+0x09895000 0x00000008 # R1 = R1 << 8
+0x08183000 0x00000000 # R0 = R0 | R1
+0x0A00A284 0x00000000 # dev{4}[R0] = R2
+0x00000000 0x00000001 # PC += 1, goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
 
 # OP_LOAD:
 #   R0 = pop
@@ -184,7 +223,8 @@
 #   R0 = pop
 #   R1 = pop
 #   R0 = R0 - R1
-#   push R0 <-+-> NEXT_LINE
+#   R1 = NEXT_LINE
+#   push R0 <-+-> R1
 #   # Double wide instruction
 #   PC += 2, goto 0
 
@@ -266,3 +306,33 @@
 #     dev{0}[5] = R1
 #     # Don't change the program counter!
 #     goto 0
+#
+
+OP_DRAW_SPRITE:
+  # SCREN MEM INDEX: R0
+  # SPRITE_OFFSET: R1
+  # WIDTH: R2
+  # HEIGHT: R3
+  # DRAWING X: R4
+  # DRAWING Y: R5
+  # SPRITE MEM INDEX: R6
+  # SPRITE MEM DATA: R7
+  R0 = pop # X position of the sprite
+  R1 = pop # Y position of the sprite
+  R1 = R1 << 8
+  R0 = R0 | R1 # Memory position of the start of the sprite
+  R1 = pop # ID of the sprite
+  R1 = dev{5}[R0] # Data for the sprite
+  R2 = R1 >> 24 # Width of the sprite
+  R3 = R1 >> 16
+  R3 = R3 & 0xFF # Height of the sprite
+  R1 = R1 & 0xFFFF # Location of the start of the sprite data
+  R4 = 0 # X location of the drawing
+  R5 = 0 # Y location of the drawing
+  DRAW_COL:
+    DRAW_ROW:
+      R6 = R5 << 8
+      R6 = R6 | R5
+      R6 = R6 + R1
+  
+  
