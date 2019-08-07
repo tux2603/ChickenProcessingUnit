@@ -308,31 +308,41 @@
 #     goto 0
 #
 
-OP_DRAW_SPRITE:
-  # SCREN MEM INDEX: R0
-  # SPRITE_OFFSET: R1
-  # WIDTH: R2
-  # HEIGHT: R3
-  # DRAWING X: R4
-  # DRAWING Y: R5
-  # SPRITE MEM INDEX: R6
-  # SPRITE MEM DATA: R7
-  R0 = pop # X position of the sprite
-  R1 = pop # Y position of the sprite
-  R1 = R1 << 8
-  R0 = R0 | R1 # Memory position of the start of the sprite
-  R1 = pop # ID of the sprite
-  R1 = dev{5}[R0] # Data for the sprite
-  R2 = R1 >> 24 # Width of the sprite
-  R3 = R1 >> 16
-  R3 = R3 & 0xFF # Height of the sprite
-  R1 = R1 & 0xFFFF # Location of the start of the sprite data
-  R4 = 0 # X location of the drawing
-  R5 = 0 # Y location of the drawing
-  DRAW_COL:
-    DRAW_ROW:
-      R6 = R5 << 8
-      R6 = R6 | R5
-      R6 = R6 + R1
-  
-  
+# OP_DRAW_SPRITE:
+#   # SCREN MEM INDEX: R0
+#   # SPRITE_OFFSET: R1
+#   # WIDTH: R2
+#   # HEIGHT: R3
+#   # DRAWING X: R4
+#   # DRAWING Y: R5
+#   # SPRITE MEM INDEX: R6
+#   # SPRITE MEM DATA: R7
+#   R0 = pop # X position of the sprite
+#   R1 = pop # Y position of the sprite
+#   R1 = R1 << 8
+#   R0 = R0 | R1 # Memory position of the start of the sprite
+#   R1 = pop # ID of the sprite
+#   R1 = dev{5}[R0] # Data for the sprite
+#   R2 = R1 >> 24 # Width of the sprite
+#   R3 = R1 >> 16
+#   R3 = R3 & 0xFF # Height of the sprite
+#   R1 = R1 & 0xFFFF # Location of the start of the sprite data
+#   R4 = 0 # X location of the drawing
+#   R5 = 0 # Y location of the drawing
+#   R6 = R1
+#   DRAW_COL:
+#     DRAW_ROW:
+#       R7 = dev{5}[R6]
+#       dev{4}[R0] = R7
+#       goto CONTINUE
+#       goto 0x000
+#       CONTINUE:
+#         R6 = R6 + 1
+#         R0 = R0 + 1
+#         R4 = R4 + 1
+#         R4 - R2 >, goto DRAW_ROW
+#     R6 = R6 - R2 
+#     R6 = R6 + 0x0100
+#     R4 = 0
+#     R5 = R5 + 1
+#     R5 - R3 >, goto DRAW_COL
