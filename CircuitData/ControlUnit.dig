@@ -8,7 +8,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>/home/o-linux/Documents/ChickenProcessingUnit/ControlUnit.rom</file>
+      <file>ControlUnit.rom</file>
     </entry>
   </attributes>
   <visualElements>
@@ -484,12 +484,12 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="120" y="580"/>
@@ -512,12 +512,12 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>31-16,15-0</string>
-        </entry>
-        <entry>
           <string>splitterSpreading</string>
           <int>2</int>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>31-16,15-0</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
@@ -533,6 +533,10 @@
           <string>Label</string>
           <string>Instruction</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>28</int>
+        </entry>
       </elementAttributes>
       <pos x="240" y="560"/>
     </visualElement>
@@ -542,6 +546,10 @@
         <entry>
           <string>Label</string>
           <string>Constant</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="240" y="600"/>
