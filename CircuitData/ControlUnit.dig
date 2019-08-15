@@ -11,16 +11,8 @@
       <int>10</int>
     </entry>
     <entry>
-      <string>preloadProgram</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
       <string>Width</string>
       <int>10</int>
-    </entry>
-    <entry>
-      <string>preloadProgramFile</string>
-      <file>ControlUnit.rom</file>
     </entry>
   </attributes>
   <visualElements>
@@ -158,12 +150,31 @@
           <int>16</int>
         </entry>
         <entry>
-          <string>isProgramMemory</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>64</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,888088000000006,2280000000000013,7a22a00000000012,
+888a00000000001,880018000000006,888900000000010,808088000000000,8892000ffff0000,989600000000010,
+88820000000ffff,880018000000004,980018000000005,1,0,0,0,800060000000000,2,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,8000c0000000000,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8080c0000000000,
+8090c0000000000,810920000000000,1,0,0,0,0,0,0,0,0,0,0,0,0,8080c0000000000,8090c0000000000,
+810a20000000000,1,0,0,0,0,0,0,0,0,0,0,0,0,8080c0000000000,8090c0000000000,810b20000000000,
+1,0,0,0,0,0,0,0,0,0,0,0,0,8080c0000000000,8090c0000000000,810c20000000000,1,0,0,0,
+0,0,0,0,0,0,0,0,0,8080c0000000000,800820000000000,1,0,0,0,0,0,0,0,0,0,0,0,0,0,b888080000900007,
+8880b0000000002,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8800d8000000003,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,8080c0000000000,8000c4000000000,808080000000000,880028000000003,1,0,0,0,0,
+0,0,0,0,0,0,0,8080c0000000000,8090c0000000000,80a0c0000000000,989500000000008,818300000000000,
+a00a28400000000,1</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>ControlUnit.rom</string>
+        </entry>
+        <entry>
+          <string>autoReload</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="-240" y="500"/>
@@ -594,12 +605,12 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>6</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="-960" y="880"/>

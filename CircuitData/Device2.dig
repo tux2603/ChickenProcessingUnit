@@ -14,14 +14,6 @@
       <string>Width</string>
       <int>10</int>
     </entry>
-    <entry>
-      <string>preloadProgram</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
-      <string>preloadProgramFile</string>
-      <file>../DeviceDataFiles/Device2.dat</file>
-    </entry>
   </attributes>
   <visualElements>
     <visualElement>
@@ -155,16 +147,15 @@
           <int>16</int>
         </entry>
         <entry>
-          <string>isProgramMemory</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
         <entry>
           <string>Data</string>
-          <data></data>
+          <data>1,4,1,8,1,2,5,5,1,8,3,9,1,4,1,8,1,2,5,5,1,5,3,9,1,4,1,8,1,2,5,5,1,6,1,2,5,3,9,1,4,
+1,8,1,2,5,5,1,6,1,2,5,3,9,1,4,1,8,1,2,5,5,1,1,1,4,1,4,5,4,3,9,1,2,1,2,1,8,5,5,9,1,
+5,1,8,1,2,5,5,1,7,3,9,1,1,1,5,1,8,1,2,5,5,4,9,1,5,1,8,1,2,5,5,1,2,3,9,1,4,1,5,1,8,
+1,2,5,5,4,9,1,4,1,8,1,2,5,5,1,4,3,9,1,2,1,2,1,8,5,5,1,1,3,9</data>
         </entry>
         <entry>
           <string>lastDataFile</string>
