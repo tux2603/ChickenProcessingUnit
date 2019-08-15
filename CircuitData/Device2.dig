@@ -15,6 +15,10 @@
       <int>10</int>
     </entry>
     <entry>
+      <string>preloadProgram</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
       <string>preloadProgramFile</string>
       <file>../DeviceDataFiles/Device2.dat</file>
     </entry>
@@ -151,8 +155,8 @@
           <int>16</int>
         </entry>
         <entry>
-          <string>Label</string>
-          <string>*</string>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>Bits</string>
@@ -160,7 +164,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>1,69,1,48,10,10</data>
+          <data></data>
         </entry>
         <entry>
           <string>lastDataFile</string>
