@@ -131,28 +131,6 @@
       <pos x="300" y="360"/>
     </visualElement>
     <visualElement>
-      <elementName>BarrelShifter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>barrelShifterMode</string>
-          <barrelShifterMode>arithmetic</barrelShifterMode>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
-          <string>barrelSigned</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>direction</string>
-          <direction>right</direction>
-        </entry>
-      </elementAttributes>
-      <pos x="300" y="440"/>
-    </visualElement>
-    <visualElement>
       <elementName>Add</elementName>
       <elementAttributes>
         <entry>
@@ -610,16 +588,16 @@
       <p2 x="300" y="820"/>
     </wire>
     <wire>
+      <p1 x="360" y="820"/>
+      <p2 x="480" y="820"/>
+    </wire>
+    <wire>
       <p1 x="520" y="180"/>
       <p2 x="660" y="180"/>
     </wire>
     <wire>
       <p1 x="360" y="180"/>
       <p2 x="400" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="440"/>
-      <p2 x="300" y="440"/>
     </wire>
     <wire>
       <p1 x="600" y="1080"/>
@@ -656,10 +634,6 @@
     <wire>
       <p1 x="540" y="200"/>
       <p2 x="660" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="460"/>
-      <p2 x="480" y="460"/>
     </wire>
     <wire>
       <p1 x="460" y="1100"/>
@@ -708,10 +682,6 @@
     <wire>
       <p1 x="560" y="220"/>
       <p2 x="660" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="480"/>
-      <p2 x="300" y="480"/>
     </wire>
     <wire>
       <p1 x="440" y="1120"/>
@@ -803,7 +773,7 @@
     </wire>
     <wire>
       <p1 x="480" y="140"/>
-      <p2 x="480" y="460"/>
+      <p2 x="480" y="820"/>
     </wire>
     <wire>
       <p1 x="480" y="1000"/>
@@ -910,10 +880,6 @@
       <p2 x="240" y="400"/>
     </wire>
     <wire>
-      <p1 x="240" y="400"/>
-      <p2 x="240" y="480"/>
-    </wire>
-    <wire>
       <p1 x="560" y="220"/>
       <p2 x="560" y="740"/>
     </wire>
@@ -951,7 +917,7 @@
     </wire>
     <wire>
       <p1 x="280" y="360"/>
-      <p2 x="280" y="440"/>
+      <p2 x="280" y="520"/>
     </wire>
     <wire>
       <p1 x="280" y="640"/>
@@ -960,10 +926,6 @@
     <wire>
       <p1 x="280" y="160"/>
       <p2 x="280" y="240"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="440"/>
-      <p2 x="280" y="520"/>
     </wire>
     <wire>
       <p1 x="280" y="720"/>

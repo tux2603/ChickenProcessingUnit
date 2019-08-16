@@ -11,7 +11,7 @@ The data path takes three inputs
 - x4 -- Output <= ~A
 - x5 -- Output <= A << B
 - x6 -- Output <= A >> B
-- x7 -- Output <= A >>> B
+- x7 -- Output <= A % B
 - x8 -- Output <= -A
 - x9 -- Output <= A + B
 - xA -- Output <= A - B
