@@ -438,16 +438,6 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="960" y="620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Register</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
       <pos x="1120" y="620"/>
     </visualElement>
     <visualElement>
@@ -548,12 +538,6 @@
         <entry>
           <string>Bits</string>
           <int>32</int>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>C</string>
-          </inverterConfig>
         </entry>
       </elementAttributes>
       <pos x="1000" y="200"/>
@@ -693,6 +677,11 @@
         </entry>
       </elementAttributes>
       <pos x="820" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SoundDevice.dig</elementName>
+      <elementAttributes/>
+      <pos x="960" y="600"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -1162,7 +1151,7 @@
     </wire>
     <wire>
       <p1 x="940" y="220"/>
-      <p2 x="980" y="220"/>
+      <p2 x="1000" y="220"/>
     </wire>
     <wire>
       <p1 x="1060" y="220"/>
