@@ -27,12 +27,12 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
-          <string>runRealTime</string>
-          <boolean>true</boolean>
+          <string>Frequency</string>
+          <int>5</int>
         </entry>
         <entry>
-          <string>Frequency</string>
-          <int>500000</int>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="-180" y="340"/>
