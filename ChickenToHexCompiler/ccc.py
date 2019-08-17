@@ -94,6 +94,7 @@ if __name__ == '__main__':
     # Write to output
     output = open(args['output'], 'w')
     currentLineCounter = 0
+    output.write('v2.0 raw\n')
     for i, count in enumerate(numChickens):
         output.write(str(intToHex(count)))
         currentLineCounter += 1

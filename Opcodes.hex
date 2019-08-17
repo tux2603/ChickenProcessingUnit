@@ -237,68 +237,40 @@
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
+0x08080C00 0x00000000 ###### START OP_COMPARE (14), R0 = pop
+0x08090C00 0x00000000 # R1 = pop
+0x0818A000 0x00000000 # R0 = R0 - R1
+0x08090800 0x00000000 # R1 = NEXT_LINE
+0x0810F200 0x00000000 # push R0 <-+-> R1
+0x00000000 0x00000002 # PC += 2, goto 0
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x00000000 0x00000000 # goto 0x000
+0x08080C00 0x00000000 ###### START OP_JUMP (15), R0 = pop
+0x58090C00 0x00000103 # pop R1, <> goto 0x103
+0x00000000 0x00000001 # PC += 1, goto 0
+0x08800180 0x00000004 # dev{0}[4] = R0
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
+0x00000000 0x00000000 # goto 0x000 
 
-# OP_COMPARE (14):
-#   R0 = pop
-#   R1 = pop
-#   R0 = R0 - R1
-#   R1 = NEXT_LINE
-#   push R0 <-+-> R1
-#   # Double wide instruction
-#   PC += 2, goto 0
-
-# OP_SWAP (15):
-#   R0 = pop
-#   R1 = pop
-#   push R0
-#   push R1
-#   PC += 1, goto 0
-
-# OP_AND (16):
-#   R0 = pop
-#   R1 = pop
-#   push R0 & R1
-#   PC += 1, goto 0
-
-# OP_OR (17):
-#   R0 = pop
-#   R1 = pop
-#   push R0 | R1
-#   PC += 1, goto 0
-
-# OP_NOT (18):
-#   R0 = pop
-#   push ~R0
-#   PC += 1, goto 0
-
-# OP_LEFT_SHIFT (19):
-#   R0 = pop
-#   R1 = pop
-#   push R0 < < R1 # Don't ask about the space...
-#   PC += 1, goto 0
-
-# OP_RIGHT_SHIFT (20):
-#   R0 = pop
-#   R1 = pop
-#   push R0 > > R1
-#   PC += 1, goto 0
-
-# OP_MODULO (21):
-#   R0 = pop
-#   R1 = pop
-#   push R0 % R1
-#   PC += 1, goto 0
-
-# OP_JUMP (22):
-#   pop R0
-#   pop R1 <>, goto JUMP
-#   PC += 1, goto 0
-#   JUMP:
-#     dev{0}[4] = R0
-#     # Since we just jumped, we don't have to worry about changing PC
-#     goto 0
-
-# OP_GOSUB (23):
+# OP_GOSUB (16):
 #   pop R0
 #   pop R1
 #   pop R2 <>, goto GOTO
@@ -326,6 +298,49 @@
 #     # Don't change the program counter!
 #     goto 0
 #
+
+# OP_SWAP (17):
+#   R0 = pop
+#   R1 = pop
+#   push R0
+#   push R1
+#   PC += 1, goto 0
+
+# OP_AND (18):
+#   R0 = pop
+#   R1 = pop
+#   push R0 & R1
+#   PC += 1, goto 0
+
+# OP_OR (19):
+#   R0 = pop
+#   R1 = pop
+#   push R0 | R1
+#   PC += 1, goto 0
+
+# OP_NOT (20):
+#   R0 = pop
+#   push ~R0
+#   PC += 1, goto 0
+
+# OP_LEFT_SHIFT (21):
+#   R0 = pop
+#   R1 = pop
+#   push R0 << R1 # Don't ask about the space...
+#   PC += 1, goto 0
+
+# OP_RIGHT_SHIFT (22):
+#   R0 = pop
+#   R1 = pop
+#   push R0 >> R1
+#   PC += 1, goto 0
+
+# OP_MODULO (23):
+#   R0 = pop
+#   R1 = pop
+#   push R0 % R1
+#   PC += 1, goto 0
+
 
 # OP_DRAW_SPRITE (24):
 #   # SCREN MEM INDEX: R0

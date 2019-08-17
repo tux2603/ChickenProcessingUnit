@@ -28,7 +28,7 @@
       <elementAttributes>
         <entry>
           <string>Frequency</string>
-          <int>5</int>
+          <int>500</int>
         </entry>
         <entry>
           <string>runRealTime</string>
