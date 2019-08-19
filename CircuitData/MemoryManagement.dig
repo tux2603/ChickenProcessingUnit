@@ -254,7 +254,12 @@
     </visualElement>
     <visualElement>
       <elementName>Device5.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Sprite Memory</string>
+        </entry>
+      </elementAttributes>
       <pos x="2600" y="100"/>
     </visualElement>
     <visualElement>
