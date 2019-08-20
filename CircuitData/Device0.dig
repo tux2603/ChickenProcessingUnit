@@ -318,7 +318,12 @@
     </visualElement>
     <visualElement>
       <elementName>Terminal</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>termWidth</string>
+          <int>128</int>
+        </entry>
+      </elementAttributes>
       <pos x="860" y="320"/>
     </visualElement>
     <visualElement>

@@ -27,12 +27,12 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
-          <string>Frequency</string>
-          <int>20</int>
-        </entry>
-        <entry>
           <string>runRealTime</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>10000</int>
         </entry>
       </elementAttributes>
       <pos x="-440" y="300"/>
@@ -264,10 +264,6 @@
           <string>Label</string>
           <string>DEBUG ENABLE</string>
         </entry>
-        <entry>
-          <string>dipDefault</string>
-          <boolean>true</boolean>
-        </entry>
       </elementAttributes>
       <pos x="-480" y="460"/>
     </visualElement>
@@ -275,12 +271,12 @@
       <elementName>Button</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>DEBUG STEP</string>
-        </entry>
-        <entry>
           <string>mapToKey</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>DEBUG STEP</string>
         </entry>
       </elementAttributes>
       <pos x="-500" y="340"/>

@@ -393,19 +393,76 @@ chicken chicken chicken chicken chicken chicken chicken chicken chicken
 # 
 # END OF STDOUT BLOCK
 #
-line 345 chicken chicken chicken chicken chicken chicken chicken chicken 
+# line 345 
+chicken chicken chicken chicken chicken chicken chicken chicken 
+# Triplicate the top value of the stack
 chicken 
 
 chicken 
 
 chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 
+
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Echo whatever was typed
 chicken chicken chicken chicken chicken chicken chicken chicken chicken 
-chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Load the value in dev{3}[0]
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Increment the value just loaded
 chicken 
 chicken 
+chicken chicken chicken 
+# Save the value that was typed
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Save the value at the top of the stack to dev{3}[*dev{3}[0]]
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Determine whether or not we want to jump
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
 # push 345 (hex 0x159) to the stack
 chicken 
+chicken chicken chicken 
+chicken  
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken  
+chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken   
+chicken 
 chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+# Jump if necessary
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write H
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken 
 chicken 
 chicken chicken chicken chicken 
 chicken 
@@ -414,17 +471,666 @@ chicken
 chicken chicken chicken chicken 
 chicken chicken chicken chicken chicken 
 chicken chicken chicken chicken chicken 
-chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write E
 chicken 
 chicken chicken chicken chicken chicken 
 chicken 
 chicken chicken chicken chicken 
 chicken 
 chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write L
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write L
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write O
+chicken 
+chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# 
+# End of userout block
+#
+# Line 471
+# Get the address of the last letter entered
+# Prepare to decrement
+chicken 
+chicken 
+# Load pointer to the last letter
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Decrement the pointer
+chicken chicken chicken chicken 
+# Save the new value of the pointer
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Prepare to push the charactr at dev{3}[*dev{3}[0]]
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Push that character to the stack
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Load the value of dev{3}[0] to determine whether or not to jump
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Push the number 463 to the stack
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Get the size of the stack
+chicken 
+
+chicken 
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Store the size of the stack at dev{3}[0]
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Ignore the first value on the stack
+chicken chicken
+# Line 529
+# Print the top value off of the stack
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Load the remaining number of characters as a jump condition
+chicken 
+chicken 
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Decrement the characters remaining
+chicken chicken chicken chicken 
+# Duplicate the number of characters remaining
+chicken 
+
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Save the number of characters remaining
+chicken 
+chicken chicken chicken 
+chicken 
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# The top value on the stack should now be the number of characters remaining. This will be used as a jump condition
+# Load 530 to the top of the stack
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken 
 chicken chicken chicken chicken chicken 
 chicken chicken chicken chicken chicken 
 chicken 
 chicken chicken chicken chicken chicken chicken chicken chicken chicken 
 chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken  
+#
+# Name has been output succesfully! Yay!
+#
+# Write !
+chicken 
+chicken 
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
 chicken chicken chicken 
-chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write \n
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write I
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write A
+chicken 
+chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write M
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write A
+chicken 
+chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write C
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write O
+chicken 
+chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write M
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write P
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write U
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write T
+chicken 
+chicken chicken chicken chicken  
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write E
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write R
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write T
+chicken 
+chicken chicken chicken chicken  
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write H
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write A
+chicken 
+chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write T
+chicken 
+chicken chicken chicken chicken  
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write R
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write U
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write N
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write S
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write O
+chicken 
+chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write N
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write ' '
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write C
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write H
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write I
+chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write C
+chicken 
+chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write K
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write E
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write N
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+# Write !
+chicken 
+chicken 
+chicken 
+chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken 
+chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken 
