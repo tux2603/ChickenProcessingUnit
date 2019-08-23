@@ -1,0 +1,1053 @@
+#
+# INSTRUMENT SET BLOCK - 250 clock ticks
+#
+# CHANNEL 1: Reed organ, Volume 0x40 (64)
+# CHANNEL 2: Reed organ, Volume 0x40 (64)
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 9
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 5
+  chicken chicken chicken chicken chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 9
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 5
+  chicken chicken chicken chicken chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x48 (72, C5) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 4
+ chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x4A (74, D5) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 4
+ chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 10
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x4C (76, E5) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 4
+ chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x4D (77, F5) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 4
+ chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 13
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x4F (79, G5) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 4
+ chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 15
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x51 (81, A5) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 5
+ chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x53 (83, B5) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 5
+ chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 3
+  chicken chicken chicken
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE SPECIFICATION BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: 0x54 (84, C6) 
+# CHANNEL 2: HOLD
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 5
+ chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+#
+#
+# NOTE STOP BLOCK - 250 Clock ticks
+#
+# CHANNEL 1: Key up
+# CHANNEL 2: Key up
+#
+chicken 1
+ chicken 
+chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 16
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken  
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 12
+  chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken
+chicken 0
+  zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 4
+  chicken chicken chicken chicken 
+chicken 0
+ zero
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken 1
+  chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken chicken chicken 
+chicken 0
+  zero
+chicken 8
+  chicken chicken chicken chicken chicken chicken chicken chicken 
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
