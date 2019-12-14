@@ -400,43 +400,32 @@
 0x08080C00 0x00000000 ###### START OP_DRAW_SPRITE (24), R0 = pop
 0x08090C00 0x00000000 # R1 = pop
 0x09895000 0x00000008 # R1 = R1 << 8
-0x08183000 0x00000000 # R0 = R0 | R1 # Screen memory position of the start of the sprite
-0x08090C00 0x00000000 # R1 = pop     # ID of the sprite
-0x08190885 0x00000000 # R1 = dev{5}[R1] # Data for the sprite
-# TODO PAST THIS POINT!
+0x08183000 0x00000000 # R0 = R0 | R1     # Screen memory position of the start of the sprite
+0x08090C00 0x00000000 # R1 = pop         # ID of the sprite
+0x08190885 0x00000000 # R1 = dev{5}[R1]  # Data for the sprite
+0x098A6000 0x00000018 # R2 = R1 >> x18
+0x098B6000 0x00000010 # R3 = R1 >> x10
+0x0B8B2000 0x000000FF # R3 = R3 & 0xFF   # Height of the sprite
+0x09892000 0x0000FFFF # R1 = R1 & 0xFFFF # Location of the start of the sprite data
+0x088C1000 0x00000000 # R4 = 0           # X location of the drawing
+0x088D1000 0x00000000 # R5 = 0           # Y location of the drawing
+0x090E0000 0x00000000 # R6 = R1
+0x086F0815 0x00000000 ###### DRAW_COL, DRAW_ROW, R7 = dev{5}[R6]
+0x0F000114 0x00000000 # dev{4}[R0] = R7
+0x70000000 0x000001A1 # goto CONTINUE
+0x00000000 0x00000001 ###### START OP_NO_OP (25), PC +=1, goto 0x000
+0x0E8E9000 0x00000001 ###### CONTINUE, R6 = R6 + 1
+0x08889000 0x00000001 # R0 = R0 + 1
+0x0C8C9000 0x00000001 # R4 = R4 + 1
+0x4C20A000 0x0000019D # R4 - R2 >, goto DRAW_ROW
+0x0E2EA000 0x00000000 # R6 = R6 - R2 
+0x0E8E9000 0x00000100 # R6 = R6 + 0x0100
+0x088C1000 0x00000000 # R4 = 0
+0x0D8D9000 0x00000001 # R5 = R5 + 1
+0x4D30A000 0x0000019D # R5 - R3 >, goto DRAW_COL
+0x00000000 0x00000001 # PC += 1, goto 0x000
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
 0x00000000 0x00000000 # goto 0x000
-0x00000000 0x00000000 # goto 0x000
-0x00000000 0x00000000 # goto 0x000
-0x00000000 0x00000000 # goto 0x000
-0x00000000 0x00000000 # goto 0x000
-0x00000000 0x00000000 # goto 0x000
-0x00000000 0x00000001 ###### START OP_NO_OP, PC +=1, goto 0x000
-#   R2 = R1 >> 24 # Width of the sprite
-#   R3 = R1 >> 16
-#   R3 = R3 & 0xFF # Height of the sprite
-#   R1 = R1 & 0xFFFF # Location of the start of the sprite data
-#   R4 = 0 # X location of the drawing
-#   R5 = 0 # Y location of the drawing
-#   R6 = R1
-#   DRAW_COL:
-#     DRAW_ROW:
-#       R7 = dev{5}[R6]
-#       dev{4}[R0] = R7
-#       goto CONTINUE
-#       PC += 1, goto 0x000
-#       CONTINUE:
-#         R6 = R6 + 1
-#         R0 = R0 + 1
-#         R4 = R4 + 1
-#         R4 - R2 >, goto DRAW_ROW
-#     R6 = R6 - R2 
-#     R6 = R6 + 0x0100
-#     R4 = 0
-#     R5 = R5 + 1
-#     R5 - R3 >, goto DRAW_COL
-
-# OP_NO_OP (25)
